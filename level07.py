@@ -1,5 +1,5 @@
 from PIL import Image
-img = Image.open("level7_oxygen.png");
+img = Image.open("level07_oxygen.png");
 w = img.width;
 h = img.height;
 row = [img.getpixel((x, h//2)) for x in range(w)];
